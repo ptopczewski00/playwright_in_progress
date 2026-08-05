@@ -10,7 +10,8 @@ const dataCases = [
 
 dataCases.forEach((data) => {
     test(`Kolej: ${data.username} (Oczekiwany: ${data.expectedToPass})`, async ({ page }) => {
-        await page.goto('http://localhost:5173/');
+        // await page.goto('http://localhost:5173/');
+        await page.goto('/');
         await page.fill('#username', data.username);
         await page.fill('#password', data.password);
         await page.click('button[type="submit"]');

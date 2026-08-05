@@ -42,7 +42,7 @@
 
 <template>
     <div class="shop-container">
-        <div class="topBar">
+        <div class="top-bar">
           <button @click="logOut" class="logout-btn">Wyloguj się</button>
         </div>
 

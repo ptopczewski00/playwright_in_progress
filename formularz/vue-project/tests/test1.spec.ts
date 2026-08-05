@@ -3,7 +3,8 @@
 import { test, expect } from '@playwright/test';
 
 test('test', async ({ page }) => {
-  await page.goto('http://localhost:5173/');
+  // await page.goto('http://localhost:5173/');
+  await page.goto('/');
   
   await page.getByRole('textbox', { name: 'Login' }).fill('piotr');
   await page.getByRole('textbox', { name: 'Hasło' }).fill('2012');
