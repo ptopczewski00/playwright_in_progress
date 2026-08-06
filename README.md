@@ -37,7 +37,7 @@ Jeśli brakuje Node.js, pobierz go z: **https://nodejs.org**
 Wszystko związane z testami znajduje się w folderze *playwright/*, reszta w
 folderze *vue-project/ to rzeczy związane z formularzem*.
 
-## 08.08.26
+## 06.08.26
 ### Dodanie tagów i komendy na uruchomienie samych tagów, zrobienie porządku (dodanie plikow zwiazanych z testami playwright do folderu *playwright/*
 narazie są w pliku *test6.spec.ts*
 w folderze *playwright/tests* znajduje sie plik *tagList.txt*, w ktorym 
