@@ -11,21 +11,21 @@ Uruchomienie testów:
 
 Przed pierwszym uruchomieniem sprawdź, czy wszystko jest gotowe:
 
-\`\`\`
-- node -v
-- pnpm -v
-- npx playwright --version
-- npx playwright install --dry-run
-\`\`\`
+
+- `node -v`
+- `pnpm -v`
+- `npx playwright --version`
+- `npx playwright install --dry-run`
+
 
 Jeśli czegoś brakuje (np. `node_modules` albo przeglądarek Playwright), zainstaluj:
 
-\`\`\`
-- pnpm install
-- npx playwright install
-\`\`\`
 
-Jeśli brakuje Node.js, pobierz go z: https://nodejs.org
+- `pnpm install`
+- `npx playwright install`
+
+
+Jeśli brakuje Node.js, pobierz go z: **https://nodejs.org**
 
 ### Struktura
 
