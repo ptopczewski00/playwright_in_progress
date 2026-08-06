@@ -4,10 +4,8 @@
 
 Testy należy odpalać z folderu `vue-project` (główny folder projektu).
 
-Uruchomienie testów - jedną z poniższych metod:
+Uruchomienie testów:
 - `pnpm startTest <nazwa pliku>`
-- `npm run startTest <nazwa pliku>`
-- `npx playwright test --config=playwright/playwright.config.ts <nazwa pliku>`
 
 ### Sprawdzenie środowiska
 
