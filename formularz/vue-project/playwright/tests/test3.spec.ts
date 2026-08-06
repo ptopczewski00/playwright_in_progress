@@ -8,7 +8,9 @@ test.describe('Testy III', () => {
     await page.evaluate(() => localStorage.clear());
   });
 
-  test('TC-01 - Walidacja formularza', async ({ page }) => {
+  test('TC-01 - Walidacja formularza',
+    { tag: '@basic' },
+    async ({ page }) => {
     await page.getByRole('button', { name: 'Zaloguj' }).click();
 
     const emptyErrorMsg = page.getByText('Wpisz dane przed zalogowaniem');
@@ -27,7 +29,9 @@ test.describe('Testy III', () => {
     await expect(page).toHaveURL('http://localhost:5173/');
   });
 
-  test('TC-02 - Wybór produktu + koszyk', async ({ page }) => {
+  test('TC-02 - Wybór produktu + koszyk',
+    { tag: '@basic' },
+    async ({ page }) => {
     await page.getByLabel('Login').fill('piotr');
     await page.getByLabel('Hasło').fill('2012');
     await page.getByRole('button', { name: 'Zaloguj' }).click();

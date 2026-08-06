@@ -9,7 +9,9 @@
     "preview": "vite preview",
     "build-only": "vite build",
     "type-check": "vue-tsc --build",
-    "startTest": "playwright test --config=playwright/playwright.config.ts"
+    "startTest": "playwright test --config=playwright/playwright.config.ts --project=chromium",
+    "startTestImportant": "playwright test --config=playwright/playwright.config.ts --grep @important",
+    "startTestAllThree": "playwright test --config=playwright/playwright.config.ts"
   },
   "dependencies": {
     "vue": "^3.5.40",

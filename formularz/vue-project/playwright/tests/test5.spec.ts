@@ -4,7 +4,9 @@ import { test, expect } from '@playwright/test';
 
 
 test.describe('Izolacja kontekstów przeglądarki', () => {
-  test('dwa konteksty mają całkowicie niezależny localStorage', async ({ browser }) => {
+  test('dwa konteksty mają całkowicie niezależny localStorage', 
+    { tag: '@context' },
+    async ({ browser }) => {
     const contextA = await browser.newContext();
     const pageA = await contextA.newPage();
 

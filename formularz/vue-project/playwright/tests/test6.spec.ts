@@ -2,7 +2,9 @@ import { test, expect } from '../fixtures-test6/fixtures';
 import { users, invalidCredentials } from '../data-test6/testData';
 
 test.describe('TEST VI - symulacja zakupów z oddzielnymi danymi, fixtures, objects', () => {
-  test('poprawne logowanie prowadzi do sklepu', async ({ loginPage, shopPage }) => {
+  test('poprawne logowanie prowadzi do sklepu',
+    { tag: '@important' }, 
+    async ({ loginPage, shopPage }) => {
     await test.step('Logowanie poprawnymi danymi', async () => {
       await loginPage.login(users.piotr.username, users.piotr.password);
     });
@@ -24,7 +26,9 @@ test.describe('TEST VI - symulacja zakupów z oddzielnymi danymi, fixtures, obje
     });
   });
 
-  test('wybór produktu i finalizacja zakupu czyści koszyk', async ({ page, loginPage, shopPage, cartPage }) => {
+  test('wybór produktu i finalizacja zakupu czyści koszyk',
+    { tag: '@important'},
+    async ({ page, loginPage, shopPage, cartPage }) => {
     await test.step('Logowanie', async () => {
       await loginPage.login(users.piotr.username, users.piotr.password);
     });

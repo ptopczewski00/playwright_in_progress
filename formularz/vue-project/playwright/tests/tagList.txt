@@ -1,0 +1,6 @@
+@important - test6, mozliwe ze pozniej bedzie zmieniony, 
+             zostaje na ten moment
+@rookie - test1, test2, oznaczenie pierwszych 'rookie testow'
+@basic - test2, test3, testy, ktore mozna odpalac ciagle, sprawdzaja postawowe rzeczy
+         typu czy logowanie i przyciski dzialaja
+@context - test5, sprawdza zachowanie dwoch contextow

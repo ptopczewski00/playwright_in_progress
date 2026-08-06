@@ -2,7 +2,9 @@
 
 import { test, expect } from '@playwright/test';
 
-test('test', async ({ page }) => {
+test('test', 
+  { tag: '@rookie' },
+  async ({ page }) => {
   // await page.goto('http://localhost:5173/');
   await page.goto('/');
   

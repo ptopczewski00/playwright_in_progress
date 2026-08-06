@@ -9,7 +9,9 @@ const dataCases = [
 ];
 
 dataCases.forEach((data) => {
-    test(`Kolej: ${data.username} (Oczekiwany: ${data.expectedToPass})`, async ({ page }) => {
+    test(`Kolej: ${data.username} (Oczekiwany: ${data.expectedToPass})`, 
+        { tag: ['@rookie', '@basic'] },
+        async ({ page }) => {
         // await page.goto('http://localhost:5173/');
         await page.goto('/');
         await page.fill('#username', data.username);
