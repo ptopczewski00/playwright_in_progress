@@ -46,11 +46,11 @@ jest narazie przypisany do komendy wyzej
 
 ## 05.08.26
 ### dodanie nowych plikow testowych z wczoraj oraz dzisiaj:
-test3 - nowe testy skupione glownie na dodaniu opisow dla czytelnosci kodu
-test4 - testy dla wczesniejszego problemu z przyciskiem 'wyloguj sie'
-test5 - dodanie kontekstow, symulacji 'dwoch roznych kart'
-test6 - rozlozenie testu na wiecej plikow, dodajac fixtures, objects i dane do innego pliku
-test7 - wygenerowany przez claude jako ciekawostka do analizy w inny dzien
+- test3 - nowe testy skupione glownie na dodaniu opisow dla czytelnosci kodu
+- test4 - testy dla wczesniejszego problemu z przyciskiem 'wyloguj sie'
+- test5 - dodanie kontekstow, symulacji 'dwoch roznych kart'
+- test6 - rozlozenie testu na wiecej plikow, dodajac fixtures, objects i dane do innego pliku
+- test7 - wygenerowany przez claude jako ciekawostka do analizy w inny dzien
 
 
 ## 03.08.26
